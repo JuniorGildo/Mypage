@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- O elemento HEAD é o local onde vc informa algumas configurações importantes do seu site. Estas informação não aparecerão no site, mas são de extrema importância para que ele funcione bem -->
+
+<head>
+    <!-- O elemento META dá informações importantes. Por exemplo, aqui ele está informando que o caracteres são do formato "UTF-8" que é o código padrão de caracteres mundial -->
+    <meta charset="UTF-8">
+
+    <!-- Aqui o elemento META está informando que o site poderá ser visto em vários dispositivos de tamamhos diferentes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- O elemento TITLE informa o nome que deve aparecer lá na barra de título do navegador -->
+    <title>Junior Website</title>
+
+    <!-- Aqui é onde se coloca o link do endereço do arquivo CSS que você quer que o HTML leia -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Aqui é um enedereço onde se encontram alguns icones. Não é obrigatório se assim. Mas aqui já tem vários ícones prontos -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+
+
+
+
+
+<!-- O elemento BODY é onde você vai colocar tudo que deve aparecer no seu site. Veja que ele termina lá no finalzinho do código. Pois tudo deve estar dentro dele. -->
+
+<body>
+
+    <!-- Dentro do BODY a gente pode deixar o codigo mais organizado incluindo um elemento MAIN. Esta tag significa informar que este é o conteúdo mais importante do BODY -->
+
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Sobre</a>
+            </li>
+            <li>
+                <a href="Projeto.html">Projetos</a>
+            </li>
+            <li>
+                <a href="contato.html">Contatos</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <!-- O elemento ARTICLE normalmente é utilizado para informar que o conteúdo dentro dele é um artigo, um texto com informações, etc. -->
+        <article>
+
+            <!-- Dentro da tag article você pode incluir uma SECTION para separar os assuntos do artigo em sessões e deixar mais organizado -->
+            <section class="foto-social">
+
+                <!-- Dentro da tag SECTION você pode incluir uma DIV para incluir uma foto e chamar esta DIV de "FOTO" com uma CLASS -->
+                <div class="foto">
+                    <img src="./img/Eu.png" alt="Minha foto" title="Junior">
+
+                </div>
+            </section>
+            <!-- Nesta outra SECTION chamada TEXTO, foi incluido um texto sobre você, utilizando elementos de Título <h1> e de parágrafo <p> -->
+            <section class="texto">
+                <h1></h1>
+                <p>
+                    Hello my name is Hermenegildo Junior, I work as a support analyst, I'm 37 years old, I live in
+                    Fortaleza Ceara Brazil. I love football, family and technology, student of the Full Stack course
+                    at
+                    Digital College
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Scelerisque in dictum non consectetur a
+                    erat nam. Amet volutpat consequat mauris nunc congue nisi.
+                    Tortor at risus viverra adipiscing at.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Scelerisque in dictum non consectetur a
+                    erat nam. Amet volutpat consequat mauris nunc congue nisi.
+                    Tortor at risus viverra adipiscing at.
+                </p>
+            </section>
+
+
+            <!-- E nesta outra SECTION também chamada de TEXTO, que poderia ter outro nome, por exemplo: PORTFOLIO foo incluído seu portfólio, seus trabalhos, etc -->
+            <section class="texto1">
+
+                <h1>Projetos</h1>
+                <p>
+                    <a href="https://github.com/JuniorGildo/Freecodecamp"> Freecodecamp Cat Photos App</a>
+                </p>
+                <p>
+                    <a href="https://github.com/JuniorGildo/Apresentacoes">Apresentações</a>
+                </p>
+                <p>
+                    <a href="https://github.com/JuniorGildo/DevTools">Devtools</a>
+                </p>
+                <br>
+
+            </section>
+            <!-- Ainda dentro da SECTION foi incluido uma UL (Unordered List) que é uma lista não ordenada, ou seja que não tem um número sequencial -->
+            <section class="texto1">
+                <h1>Contatos</h1>
+                <ul class="social">
+
+                    <!-- Aqui você inclui cada item da lista com a tag LI. Neste caso está sendo informado seu LinkdIn e nos próximos suas outras redes sociais -->
+                    <li>
+                        <a href="https://www.linkedin.com/in/júnior-gildo-729764214/" target="_blank">
+                            <span class="fab fa-linkedin-in"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://github.com/juniorgildo" target="_blank">
+                            <span class="fab fa-github"></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.freecodecamp.org/juniorgildo" target="_blank">
+                            <span class="fab fa-free-code-camp"></span>
+                        </a>
+                    </li>
+                </ul>
+
+            </section>
+
+            <!-- FOOTER -->
+            <section class="footer">
+                <p>© Copyright 2022 - Todos os direitos reservados.</p>
+                <p>Feito por Hermenegildo Júnior.</p>
+            </section>
+            </section>
+        </article>
+    </main>
+</body>
+
+<!-- Aqui se fecha a tag HTML para finalizar o código -->
+
+</html>
